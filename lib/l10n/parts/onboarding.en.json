@@ -1,0 +1,23 @@
+{
+  "onboardingWelcomeTitle": "Welcome!",
+  "onboardingWelcomeText": "Your training companion for the gym and at home.",
+  "onboardingPointGuide": "Instructions for common machines and bodyweight exercises",
+  "onboardingPointProgress": "Tick off sets — the app increases weight and reps automatically",
+  "onboardingPointAchievements": "Achievements, a weekly goal and reminders keep you going",
+  "onboardingPointPrivacy": "Everything stays encrypted on your device — no account",
+  "onboardingPlaceTitle": "Where do you train?",
+  "onboardingPlaceText": "We’ll set up matching beginner plans. You can change them anytime.",
+  "placeGym": "At the gym",
+  "placeGymText": "Two full-body machine plans (alternating A/B)",
+  "placeHome": "At home",
+  "placeHomeText": "Two full-body plans without equipment",
+  "placeBoth": "Both",
+  "placeBothText": "Gym plans plus one plan for home",
+  "placeOwn": "Build my own",
+  "placeOwnText": "Start without a template",
+  "onboardingDaysTitle": "When do you train?",
+  "onboardingDaysText": "For beginners 2–3 days a week is ideal, with a rest day in between.",
+  "onboardingRemindText": "A reminder on your training days",
+  "onboardingStart": "Let’s go",
+  "onboardingRestore": "I have a backup"
+}

@@ -1,0 +1,23 @@
+{
+  "onboardingWelcomeTitle": "Willkommen!",
+  "onboardingWelcomeText": "Dein Trainingsbegleiter fürs Studio und für zu Hause.",
+  "onboardingPointGuide": "Anleitungen für gängige Geräte und Übungen ohne Geräte",
+  "onboardingPointProgress": "Sätze abhaken — die App steigert Gewicht und Wiederholungen automatisch",
+  "onboardingPointAchievements": "Erfolge, Wochenziel und Erinnerungen halten dich am Ball",
+  "onboardingPointPrivacy": "Alles bleibt verschlüsselt auf deinem Gerät — ohne Konto",
+  "onboardingPlaceTitle": "Wo trainierst du?",
+  "onboardingPlaceText": "Wir legen dir passende Einsteigerpläne an. Du kannst sie jederzeit ändern.",
+  "placeGym": "Im Studio",
+  "placeGymText": "Zwei Ganzkörperpläne an Geräten (A/B im Wechsel)",
+  "placeHome": "Zu Hause",
+  "placeHomeText": "Zwei Ganzkörperpläne ohne Geräte",
+  "placeBoth": "Beides",
+  "placeBothText": "Studio-Pläne plus ein Plan für zu Hause",
+  "placeOwn": "Selbst zusammenstellen",
+  "placeOwnText": "Ohne Vorlage starten",
+  "onboardingDaysTitle": "Wann trainierst du?",
+  "onboardingDaysText": "Für Anfänger sind 2–3 Tage pro Woche ideal, mit einem Ruhetag dazwischen.",
+  "onboardingRemindText": "Erinnerung an deinen Trainingstagen",
+  "onboardingStart": "Loslegen",
+  "onboardingRestore": "Ich habe eine Sicherung"
+}

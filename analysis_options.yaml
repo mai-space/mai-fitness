@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - lib/**/*.g.dart
+    - lib/l10n/generated/**
+    # Eigenes Dart-Paket mit eigenem pubspec — eigener CI-Job.
+    - packages/**
+
+linter:
+  rules:
+    prefer_single_quotes: true

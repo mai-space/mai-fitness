@@ -1,0 +1,28 @@
+{
+  "routineNew": "New plan",
+  "routineEdit": "Edit plan",
+  "routineTemplates": "Templates",
+  "routineExerciseCount": "{count, plural, =1{1 exercise} other{{count} exercises}}",
+  "@routineExerciseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routineEmptyTitle": "No plan yet",
+  "routineEmptyText": "A plan is a list of exercises with goals. Start with a template or build your own.",
+  "routineRotationHint": "Your plans take turns (A → B → A …). Long-press and drag to reorder.",
+  "routineName": "Plan name",
+  "routineNameHint": "e.g. Full body A",
+  "routineNameMissing": "Please give the plan a name.",
+  "routineSets": "Sets",
+  "routineRepMin": "Reps from",
+  "routineRepMax": "Reps to",
+  "routineRest": "Rest",
+  "routineDeleteTitle": "Delete plan?",
+  "routineDeleteText": "The plan disappears. Your past workouts are kept.",
+  "routineLeaveTitle": "Discard changes?",
+  "routineLeaveText": "Your changes to the plan are not saved yet.",
+  "routineLeaveDiscard": "Discard"
+}

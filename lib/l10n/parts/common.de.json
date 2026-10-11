@@ -1,0 +1,65 @@
+{
+  "appTitle": "Fitness",
+  "tabToday": "Heute",
+  "tabPlans": "Pläne",
+  "tabProgress": "Fortschritt",
+  "tabExercises": "Übungen",
+  "commonBack": "Zurück",
+  "commonCancel": "Abbrechen",
+  "commonClear": "Leeren",
+  "commonContinue": "Weiter",
+  "commonDelete": "Löschen",
+  "commonDone": "Fertig",
+  "commonEdit": "Bearbeiten",
+  "commonMore": "Mehr",
+  "commonRemove": "Entfernen",
+  "commonRetry": "Erneut versuchen",
+  "commonSave": "Speichern",
+  "commonToday": "Heute",
+  "commonTomorrow": "Morgen",
+  "commonUnderstood": "Verstanden",
+  "unitKg": "{value} kg",
+  "@unitKg": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitKgShort": "kg",
+  "unitTons": "{value} t",
+  "@unitTons": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitMinutes": "{count} min",
+  "@unitMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "unitHoursMinutes": "{hours} h {minutes} min",
+  "@unitHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "unitReps": "{count, plural, =1{1 Wdh.} other{{count} Wdh.}}",
+  "@unitReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

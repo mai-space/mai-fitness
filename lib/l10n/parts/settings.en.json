@@ -1,0 +1,53 @@
+{
+  "keyUnavailableTitle": "Data not readable right now",
+  "keyUnavailableText": "The key for your encrypted data is not available right now. Your data is safe — try again in a moment or restart your device.",
+  "unreadableTitle": "Old data could not be read",
+  "unreadableText": "Your previous data could no longer be decrypted on this device and was set aside. Restore it from a backup (Settings → Data).",
+  "backupIntro": "Backup: all your data, encrypted in one file — for a new phone or just in case. It cannot be read without the password.",
+  "backupCreate": "Back up",
+  "backupRestore": "Restore",
+  "backupCreated": "Backup created",
+  "backupFailed": "Sorry, that did not work.",
+  "backupPassphrase": "Password",
+  "backupPassphraseCreateHint": "Choose a password for the backup. It cannot be restored without it — keep it safe!",
+  "backupPassphraseRestoreHint": "Backup password",
+  "backupPassphraseRepeat": "Repeat password",
+  "backupPassphraseMismatch": "Passwords do not match",
+  "backupPassphraseTooShort": "At least 8 characters",
+  "backupPick": "Choose backup",
+  "backupReplace": "Replace",
+  "backupRestoreConfirmTitle": "Replace all data?",
+  "backupRestoreConfirmText": "All plans, workouts and settings on this device will be replaced by the backup.",
+  "backupRestored": "Backup from {date} restored",
+  "@backupRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupShareSubject": "Fitness backup",
+  "backupTooNew": "This backup is from a newer app version. Please update the app.",
+  "backupUnsupported": "Backups are not available here.",
+  "backupWrongApp": "This is not a Fitness backup.",
+  "csvExport": "Share history as table (CSV)",
+  "csvShareSubject": "Workout history",
+  "csvDate": "Date",
+  "csvWorkout": "Workout",
+  "csvExercise": "Exercise",
+  "csvSet": "Set",
+  "csvWeight": "Weight (kg)",
+  "csvReps": "Reps",
+  "csvSeconds": "Seconds",
+  "reminderTitle": "Time to train 💪",
+  "reminderBody": "Up today: {name}",
+  "@reminderBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderBodyFree": "Today is a training day.",
+  "reminderChannel": "Workout reminders"
+}

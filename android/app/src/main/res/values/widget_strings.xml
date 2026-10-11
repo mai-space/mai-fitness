@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texte des Homescreen-Widgets, die ohne App-Stand gebraucht werden
+     (Widget-Auswahl, Platzhalter). Alles andere liefert die App. -->
+<resources>
+    <string name="widget_next_label">Next workout</string>
+    <string name="widget_next_description">Your next workout with exercises and target weights. Start it with one tap.</string>
+    <string name="widget_setup">Open the app to get started</string>
+    <string name="widget_start">Start</string>
+    <string name="widget_preview_plan">Full body A</string>
+    <string name="widget_preview_today">Today</string>
+    <string name="widget_preview_ex_1">Leg press</string>
+    <string name="widget_preview_ex_1_detail">3 × 10 · 80 kg</string>
+    <string name="widget_preview_ex_2">Lat pulldown</string>
+    <string name="widget_preview_ex_2_detail">3 × 12 · 45 kg</string>
+    <string name="widget_preview_ex_3">Plank</string>
+    <string name="widget_preview_ex_3_detail">3 × 40 s</string>
+</resources>

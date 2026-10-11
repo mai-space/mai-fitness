@@ -1,0 +1,24 @@
+{
+  "widgetNextTitle": "Nächstes Training",
+  "widgetAnyDay": "Bereit, wenn du es bist",
+  "widgetEmpty": "Leg in der App einen Plan an",
+  "widgetWeek": "{done}/{goal} diese Woche",
+  "@widgetWeek": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "widgetMore": "+{count} weitere",
+  "@widgetMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
