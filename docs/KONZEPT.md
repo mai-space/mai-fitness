@@ -44,6 +44,26 @@ Jede Übung im Plan hat Sätze und einen Wiederholungsbereich (z. B. 3 × 8–12
 Start-Knopf, ab 2×2 die Übungen mit Zielen (↑ = Steigerung). „Heute/Morgen“
 berechnet das Widget selbst, damit es nach Mitternacht stimmt.
 
+### Uhr (Wear OS)
+
+Begleit-App `android/wear` (eigenes APK, gleiche Paket-ID und gleicher
+Schlüssel — sonst verbindet die Datenschicht nicht):
+
+- **Kachel** „Nächstes Training“: Plan, Tag, Woche x/y, Serie.
+- **Komplikation**: kurz (Tag, Serie als Titel), lang (Plan + Tag),
+  Fortschritt (Trainings dieser Woche gegen das Wochenziel).
+- **Daten**: Das Telefon leitet aus dem Widget-Stand einen knappen Stand ab
+  (`WearSync`, JSON `v` 1, nur erweitern) und schickt ihn nur an Uhren mit
+  der Fähigkeit `mai_fitness_watch`. Eine frisch installierte Uhr fragt
+  über `/mai-fitness/request` nach; das Telefon antwortet aus dem
+  gespeicherten Widget-Stand, auch ohne laufende App.
+- Gestartet wird das Training auf dem Telefon.
+
+watchOS: `ios/` ist bisher nur das Flutter-Grundgerüst ohne Widget
+(iOS steht auf der Roadmap). Eine Apple-Watch-Komplikation setzt eine
+WidgetKit-Erweiterung, eine App Group für den Stand und eine watchOS-App
+(WatchConnectivity) voraus.
+
 ## Roadmap
 
 - Körperwerte (Gewicht, Umfang) mit Verlauf

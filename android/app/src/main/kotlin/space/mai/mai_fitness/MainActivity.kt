@@ -5,6 +5,7 @@ import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 import space.mai.mai_fitness.widgets.NextWorkoutWidget
+import space.mai.mai_fitness.widgets.WearSync
 import space.mai.mai_fitness.widgets.WidgetStore
 import java.util.TimeZone
 
@@ -33,6 +34,8 @@ class MainActivity : FlutterActivity() {
                         if (json != null) {
                             WidgetStore.saveSnapshot(applicationContext, json)
                             NextWorkoutWidget.refreshAll(applicationContext)
+                            // Wear-OS-Kachel/-Komplikation (nur mit Uhr-App).
+                            WearSync.publish(applicationContext, WidgetStore.snapshot(applicationContext))
                         }
                         result.success(null)
                     }

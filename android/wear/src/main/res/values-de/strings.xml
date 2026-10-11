@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="watch_app_name">Fitness</string>
+    <string name="watch_next_title">Nächstes Training</string>
+    <string name="watch_complication_label">Nächstes Training</string>
+    <string name="watch_today">Heute</string>
+    <string name="watch_tomorrow">Morgen</string>
+    <string name="watch_any_day">Bereit, wenn du es bist</string>
+    <string name="watch_running">Läuft</string>
+    <string name="watch_none">–</string>
+    <string name="watch_setup">Fitness auf dem Telefon öffnen</string>
+    <string name="watch_setup_short">Am Telefon öffnen</string>
+    <string name="watch_empty">Leg in der App einen Plan an</string>
+    <string name="watch_week">%1$d/%2$d diese Woche</string>
+    <string name="watch_start_on_phone">Training auf dem Telefon starten.</string>
+    <string name="watch_preview_plan">Ganzkörper A</string>
+    <plurals name="watch_streak">
+        <item quantity="one">1 Woche in Folge</item>
+        <item quantity="other">%d Wochen in Folge</item>
+    </plurals>
+</resources>

@@ -27,6 +27,10 @@ Mai-Apps (Haushalt, Budget, Ärzte).
   gewählten Uhrzeit (entfällt, wenn schon trainiert).
 - **Widget „Nächstes Training“:** frei skalierbar — von 1×1 (Plan und Tag)
   bis zur Übungsliste mit Zielgewichten und Start-Knopf.
+- **Wear OS:** Begleit-App mit Kachel „Nächstes Training“ (Plan, Tag, Woche,
+  Serie) und Komplikation fürs Zifferblatt (Tag, Plan oder Wochenziel als
+  Fortschritt). Eigenes APK `mai-fitness-wear.apk`, gleicher Schlüssel wie
+  die Telefon-App.
 - **Daten:** verschlüsselte Sicherung `.maifit` (Export/Import) und
   Trainingsverlauf als CSV.
 
@@ -35,6 +39,10 @@ Mai-Apps (Haushalt, Budget, Ärzte).
 - Alle Daten nur auf dem Gerät, Datenbank verschlüsselt (SQLite3 Multiple
   Ciphers), Schlüssel im Android Keystore.
 - Keine INTERNET-Berechtigung, kein Android-Backup, keine Analytics.
+- Uhr: Nur wenn auf einer gekoppelten Uhr die Fitness-Uhr-App installiert
+  ist, geht ein knapper Stand (Planname, Tag, Woche, Serie — keine Übungen,
+  Gewichte oder Verlauf) über die Wearable-Datenschicht der
+  Google-Play-Dienste an die Uhr. Ohne Uhr-App verlässt nichts das Telefon.
 - Weitergabe nur über die vom Nutzer erstellte, passwortgeschützte Sicherung
   (AES-256-GCM / PBKDF2, `packages/mai_backup_format`).
 
