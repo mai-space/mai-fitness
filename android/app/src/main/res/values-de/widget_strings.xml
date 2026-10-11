@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_next_label">Nächstes Training</string>
+    <string name="widget_next_description">Dein nächstes Training mit Übungen und Zielgewichten. Mit einem Tipp starten.</string>
+    <string name="widget_setup">App öffnen, um loszulegen</string>
+    <string name="widget_start">Starten</string>
+    <string name="widget_preview_plan">Ganzkörper A</string>
+    <string name="widget_preview_today">Heute</string>
+    <string name="widget_preview_ex_1">Beinpresse</string>
+    <string name="widget_preview_ex_1_detail">3 × 10 · 80 kg</string>
+    <string name="widget_preview_ex_2">Latzug</string>
+    <string name="widget_preview_ex_2_detail">3 × 12 · 45 kg</string>
+    <string name="widget_preview_ex_3">Unterarmstütz</string>
+    <string name="widget_preview_ex_3_detail">3 × 40 s</string>
+</resources>

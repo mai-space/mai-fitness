@@ -1,0 +1,28 @@
+{
+  "routineNew": "Neuer Plan",
+  "routineEdit": "Plan bearbeiten",
+  "routineTemplates": "Vorlagen",
+  "routineExerciseCount": "{count, plural, =1{1 Übung} other{{count} Übungen}}",
+  "@routineExerciseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routineEmptyTitle": "Noch kein Plan",
+  "routineEmptyText": "Ein Plan ist eine Liste von Übungen mit Zielen. Starte mit einer Vorlage oder stell dir selbst einen zusammen.",
+  "routineRotationHint": "Deine Pläne kommen reihum dran (A → B → A …). Zum Umsortieren gedrückt halten und ziehen.",
+  "routineName": "Name des Plans",
+  "routineNameHint": "z. B. Ganzkörper A",
+  "routineNameMissing": "Bitte gib dem Plan einen Namen.",
+  "routineSets": "Sätze",
+  "routineRepMin": "Wdh. von",
+  "routineRepMax": "Wdh. bis",
+  "routineRest": "Pause",
+  "routineDeleteTitle": "Plan löschen?",
+  "routineDeleteText": "Der Plan verschwindet. Deine bisherigen Trainings bleiben erhalten.",
+  "routineLeaveTitle": "Änderungen verwerfen?",
+  "routineLeaveText": "Deine Änderungen am Plan sind noch nicht gespeichert.",
+  "routineLeaveDiscard": "Verwerfen"
+}

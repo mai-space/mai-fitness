@@ -1,0 +1,55 @@
+{
+  "nextTitle": "Next workout",
+  "nextAnyDay": "whenever you like",
+  "nextNoPlanTitle": "Let’s get started",
+  "nextNoPlanText": "Create a workout plan or start a free workout.",
+  "nextExercises": "{count, plural, =1{1 exercise: {names}} other{{count} exercises: {names}}}",
+  "@nextExercises": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "weekTitle": "This week",
+  "weekStreak": "{count, plural, =1{1 week in a row} other{{count} weeks in a row}}",
+  "@weekStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekGoalReached": "Weekly goal reached — {count} workouts!",
+  "@weekGoalReached": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekProgress": "{done} of {goal} workouts",
+  "@weekProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsNew": "{count, plural, =1{New achievement!} other{{count} new achievements!}}",
+  "@achievementsNew": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recentTitle": "Recent workouts",
+  "recentAll": "All"
+}

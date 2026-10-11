@@ -1,0 +1,57 @@
+{
+  "achievementsTitle": "Achievements",
+  "achievementsCount": "{done} of {total} achievements",
+  "@achievementsCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsUnlockedAt": "Unlocked on {date}",
+  "@achievementsUnlockedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "progressEmptyTitle": "No workouts yet",
+  "progressEmptyText": "After your first workout you’ll see your progress, forecasts and achievements here.",
+  "progressWeeks": "Workouts per week (goal: {goal})",
+  "@progressWeeks": {
+    "placeholders": {
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "progressExercises": "Your exercises",
+  "progressHistory": "History",
+  "progressNeedMore": "Forecast after a few workouts",
+  "progressForecast": "In 8 weeks ≈ {value}",
+  "@progressForecast": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisTitle": "Forecast",
+  "prognosisRising": "If you keep this up: ≈ {in4} in 4 weeks, ≈ {in8} in 8 weeks.",
+  "@prognosisRising": {
+    "placeholders": {
+      "in4": {
+        "type": "String"
+      },
+      "in8": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisFlat": "A plateau right now — the automatic progression will help you past it.",
+  "prognosisFalling": "A bit less lately — allow some recovery, then it goes up again."
+}

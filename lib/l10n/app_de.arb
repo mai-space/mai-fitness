@@ -1,0 +1,566 @@
+{
+  "@@locale": "de",
+  "appTitle": "Fitness",
+  "tabToday": "Heute",
+  "tabPlans": "Pläne",
+  "tabProgress": "Fortschritt",
+  "tabExercises": "Übungen",
+  "commonBack": "Zurück",
+  "commonCancel": "Abbrechen",
+  "commonClear": "Leeren",
+  "commonContinue": "Weiter",
+  "commonDelete": "Löschen",
+  "commonDone": "Fertig",
+  "commonEdit": "Bearbeiten",
+  "commonMore": "Mehr",
+  "commonRemove": "Entfernen",
+  "commonRetry": "Erneut versuchen",
+  "commonSave": "Speichern",
+  "commonToday": "Heute",
+  "commonTomorrow": "Morgen",
+  "commonUnderstood": "Verstanden",
+  "unitKg": "{value} kg",
+  "@unitKg": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitKgShort": "kg",
+  "unitTons": "{value} t",
+  "@unitTons": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitMinutes": "{count} min",
+  "@unitMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "unitHoursMinutes": "{hours} h {minutes} min",
+  "@unitHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "unitReps": "{count, plural, =1{1 Wdh.} other{{count} Wdh.}}",
+  "@unitReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "muscleChest": "Brust",
+  "muscleBack": "Rücken",
+  "muscleShoulders": "Schultern",
+  "muscleBiceps": "Bizeps",
+  "muscleTriceps": "Trizeps",
+  "muscleCore": "Bauch & Rumpf",
+  "muscleQuads": "Oberschenkel vorne",
+  "muscleHamstrings": "Oberschenkel hinten",
+  "muscleGlutes": "Po",
+  "muscleCalves": "Waden",
+  "muscleFullBody": "Ganzkörper",
+  "muscleCardio": "Ausdauer",
+  "equipmentMachine": "Gerät",
+  "equipmentCable": "Kabelzug",
+  "equipmentBarbell": "Langhantel",
+  "equipmentDumbbell": "Kurzhanteln",
+  "equipmentBodyweight": "Ohne Geräte",
+  "equipmentBar": "Stange / Bank",
+  "equipmentCardio": "Ausdauergerät",
+  "trackingWeightReps": "Gewicht × Wiederholungen",
+  "trackingReps": "Wiederholungen",
+  "trackingDuration": "Haltezeit",
+  "trackingCardio": "Dauer (Ausdauer)",
+  "exerciseInstructions": "Anleitung",
+  "exercisePick": "Übung wählen",
+  "exerciseSearch": "Übung suchen",
+  "exerciseCustomNew": "Eigene Übung",
+  "exerciseCustomEdit": "Übung bearbeiten",
+  "exerciseCustomNoNotes": "Eigene Übung — ohne Anleitung.",
+  "exerciseAdvanced": "Fortgeschritten",
+  "exerciseSetup": "Einstellung & Start",
+  "exerciseSteps": "Ablauf",
+  "exerciseTips": "Tipps",
+  "exerciseMistakes": "Häufige Fehler",
+  "exerciseYourProgress": "Dein Fortschritt",
+  "exerciseNoHistory": "Noch nicht trainiert. Nach dem ersten Training siehst du hier deinen Verlauf.",
+  "exerciseMetricOneRepMax": "Geschätztes Maximum (1 Wiederholung)",
+  "exerciseMetricBest": "Bester Satz",
+  "exerciseNextTime": "Nächstes Mal: {text}",
+  "@exerciseNextTime": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseNoneTitle": "Nichts gefunden",
+  "exerciseNoneText": "Probier einen anderen Filter oder leg eine eigene Übung an.",
+  "exerciseName": "Name",
+  "exerciseNameMissing": "Bitte einen Namen eingeben",
+  "exerciseTracking": "Gezählt wird",
+  "exerciseEquipment": "Ausrüstung",
+  "exerciseMuscle": "Hauptmuskel",
+  "exerciseNotes": "Notizen / Anleitung",
+  "exerciseNotesHint": "z. B. Sitzhöhe 4, Griff eng",
+  "exerciseArchiveTitle": "Übung löschen?",
+  "exerciseArchiveText": "Die Übung verschwindet aus der Liste. Dein bisheriger Verlauf bleibt erhalten.",
+  "filterAll": "Alle",
+  "filterMachines": "Geräte",
+  "filterFreeWeights": "Freie Gewichte",
+  "filterBodyweight": "Ohne Geräte",
+  "filterCardio": "Ausdauer",
+  "onboardingWelcomeTitle": "Willkommen!",
+  "onboardingWelcomeText": "Dein Trainingsbegleiter fürs Studio und für zu Hause.",
+  "onboardingPointGuide": "Anleitungen für gängige Geräte und Übungen ohne Geräte",
+  "onboardingPointProgress": "Sätze abhaken — die App steigert Gewicht und Wiederholungen automatisch",
+  "onboardingPointAchievements": "Erfolge, Wochenziel und Erinnerungen halten dich am Ball",
+  "onboardingPointPrivacy": "Alles bleibt verschlüsselt auf deinem Gerät — ohne Konto",
+  "onboardingPlaceTitle": "Wo trainierst du?",
+  "onboardingPlaceText": "Wir legen dir passende Einsteigerpläne an. Du kannst sie jederzeit ändern.",
+  "placeGym": "Im Studio",
+  "placeGymText": "Zwei Ganzkörperpläne an Geräten (A/B im Wechsel)",
+  "placeHome": "Zu Hause",
+  "placeHomeText": "Zwei Ganzkörperpläne ohne Geräte",
+  "placeBoth": "Beides",
+  "placeBothText": "Studio-Pläne plus ein Plan für zu Hause",
+  "placeOwn": "Selbst zusammenstellen",
+  "placeOwnText": "Ohne Vorlage starten",
+  "onboardingDaysTitle": "Wann trainierst du?",
+  "onboardingDaysText": "Für Anfänger sind 2–3 Tage pro Woche ideal, mit einem Ruhetag dazwischen.",
+  "onboardingRemindText": "Erinnerung an deinen Trainingstagen",
+  "onboardingStart": "Loslegen",
+  "onboardingRestore": "Ich habe eine Sicherung",
+  "achievementsTitle": "Erfolge",
+  "achievementsCount": "{done} von {total} Erfolgen",
+  "@achievementsCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsUnlockedAt": "Erreicht am {date}",
+  "@achievementsUnlockedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "progressEmptyTitle": "Noch kein Training",
+  "progressEmptyText": "Nach deinem ersten Training siehst du hier deinen Fortschritt, Prognosen und Erfolge.",
+  "progressWeeks": "Trainings pro Woche (Ziel: {goal})",
+  "@progressWeeks": {
+    "placeholders": {
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "progressExercises": "Deine Übungen",
+  "progressHistory": "Verlauf",
+  "progressNeedMore": "Prognose nach ein paar Trainings",
+  "progressForecast": "In 8 Wochen ≈ {value}",
+  "@progressForecast": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisTitle": "Prognose",
+  "prognosisRising": "Wenn du so weitermachst: in 4 Wochen ≈ {in4}, in 8 Wochen ≈ {in8}.",
+  "@prognosisRising": {
+    "placeholders": {
+      "in4": {
+        "type": "String"
+      },
+      "in8": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisFlat": "Gerade ein Plateau — die automatische Steigerung hilft dir darüber.",
+  "prognosisFalling": "Zuletzt etwas weniger — gönn dir Erholung, dann geht’s wieder aufwärts.",
+  "routineNew": "Neuer Plan",
+  "routineEdit": "Plan bearbeiten",
+  "routineTemplates": "Vorlagen",
+  "routineExerciseCount": "{count, plural, =1{1 Übung} other{{count} Übungen}}",
+  "@routineExerciseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routineEmptyTitle": "Noch kein Plan",
+  "routineEmptyText": "Ein Plan ist eine Liste von Übungen mit Zielen. Starte mit einer Vorlage oder stell dir selbst einen zusammen.",
+  "routineRotationHint": "Deine Pläne kommen reihum dran (A → B → A …). Zum Umsortieren gedrückt halten und ziehen.",
+  "routineName": "Name des Plans",
+  "routineNameHint": "z. B. Ganzkörper A",
+  "routineNameMissing": "Bitte gib dem Plan einen Namen.",
+  "routineSets": "Sätze",
+  "routineRepMin": "Wdh. von",
+  "routineRepMax": "Wdh. bis",
+  "routineRest": "Pause",
+  "routineDeleteTitle": "Plan löschen?",
+  "routineDeleteText": "Der Plan verschwindet. Deine bisherigen Trainings bleiben erhalten.",
+  "routineLeaveTitle": "Änderungen verwerfen?",
+  "routineLeaveText": "Deine Änderungen am Plan sind noch nicht gespeichert.",
+  "routineLeaveDiscard": "Verwerfen",
+  "keyUnavailableTitle": "Daten gerade nicht lesbar",
+  "keyUnavailableText": "Der Schlüssel deiner verschlüsselten Daten ist gerade nicht erreichbar. Deine Daten sind sicher — versuch es gleich noch einmal oder starte das Gerät neu.",
+  "unreadableTitle": "Alte Daten nicht lesbar",
+  "unreadableText": "Deine bisherigen Daten ließen sich auf diesem Gerät nicht mehr entschlüsseln und wurden beiseitegelegt. Stell sie über eine Sicherung wieder her (Einstellungen → Daten).",
+  "backupIntro": "Sicherung: alle Daten verschlüsselt in einer Datei — für ein neues Handy oder zur Vorsorge. Ohne Passwort ist sie nicht lesbar.",
+  "backupCreate": "Sichern",
+  "backupRestore": "Wiederherstellen",
+  "backupCreated": "Sicherung erstellt",
+  "backupFailed": "Das hat leider nicht geklappt.",
+  "backupPassphrase": "Passwort",
+  "backupPassphraseCreateHint": "Wähle ein Passwort für die Sicherung. Ohne dieses Passwort lässt sie sich nicht wiederherstellen — gut merken!",
+  "backupPassphraseRestoreHint": "Passwort der Sicherung",
+  "backupPassphraseRepeat": "Passwort wiederholen",
+  "backupPassphraseMismatch": "Die Passwörter stimmen nicht überein",
+  "backupPassphraseTooShort": "Mindestens 8 Zeichen",
+  "backupPick": "Sicherung auswählen",
+  "backupReplace": "Ersetzen",
+  "backupRestoreConfirmTitle": "Alle Daten ersetzen?",
+  "backupRestoreConfirmText": "Alle Pläne, Trainings und Einstellungen auf diesem Gerät werden durch die Sicherung ersetzt.",
+  "backupRestored": "Sicherung vom {date} wiederhergestellt",
+  "@backupRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupShareSubject": "Fitness-Sicherung",
+  "backupTooNew": "Diese Sicherung stammt aus einer neueren App-Version. Bitte aktualisiere die App.",
+  "backupUnsupported": "Sicherungen sind hier nicht verfügbar.",
+  "backupWrongApp": "Das ist keine Sicherung der Fitness-App.",
+  "csvExport": "Verlauf als Tabelle teilen (CSV)",
+  "csvShareSubject": "Trainingsverlauf",
+  "csvDate": "Datum",
+  "csvWorkout": "Training",
+  "csvExercise": "Übung",
+  "csvSet": "Satz",
+  "csvWeight": "Gewicht (kg)",
+  "csvReps": "Wiederholungen",
+  "csvSeconds": "Sekunden",
+  "reminderTitle": "Zeit fürs Training 💪",
+  "reminderBody": "Heute dran: {name}",
+  "@reminderBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderBodyFree": "Heute ist Trainingstag.",
+  "reminderChannel": "Trainingserinnerungen",
+  "nextTitle": "Nächstes Training",
+  "nextAnyDay": "wann du willst",
+  "nextNoPlanTitle": "Los geht’s",
+  "nextNoPlanText": "Leg einen Trainingsplan an oder starte ein freies Training.",
+  "nextExercises": "{count, plural, =1{1 Übung: {names}} other{{count} Übungen: {names}}}",
+  "@nextExercises": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "weekTitle": "Diese Woche",
+  "weekStreak": "{count, plural, =1{1 Woche in Folge} other{{count} Wochen in Folge}}",
+  "@weekStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekGoalReached": "Wochenziel geschafft — {count} Trainings!",
+  "@weekGoalReached": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekProgress": "{done} von {goal} Trainings",
+  "@weekProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsNew": "{count, plural, =1{Neuer Erfolg!} other{{count} neue Erfolge!}}",
+  "@achievementsNew": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recentTitle": "Letzte Trainings",
+  "recentAll": "Alle",
+  "widgetNextTitle": "Nächstes Training",
+  "widgetAnyDay": "Bereit, wenn du es bist",
+  "widgetEmpty": "Leg in der App einen Plan an",
+  "widgetWeek": "{done}/{goal} diese Woche",
+  "@widgetWeek": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "widgetMore": "+{count} weitere",
+  "@widgetMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setsCount": "{count, plural, =1{1 Satz} other{{count} Sätze}}",
+  "@setsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setsProgress": "{done}/{total} Sätze",
+  "@setsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutRunning": "Training läuft",
+  "workoutResume": "Fortsetzen",
+  "workoutStart": "Training starten",
+  "workoutFree": "Freies Training",
+  "workoutFreeName": "Freies Training",
+  "workoutFinish": "Fertig",
+  "workoutFinishTitle": "Training beenden?",
+  "workoutFinishOpenSets": "{count, plural, =1{1 Satz ist nicht abgehakt und wird nicht gezählt.} other{{count} Sätze sind nicht abgehakt und werden nicht gezählt.}}",
+  "@workoutFinishOpenSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutNothingDone": "Du hast noch keinen Satz abgehakt. Training verwerfen?",
+  "workoutDiscard": "Training verwerfen",
+  "workoutDiscardTitle": "Training verwerfen?",
+  "workoutDiscardText": "Alle Sätze dieses Trainings werden gelöscht.",
+  "workoutRestTimer": "Pausen-Timer",
+  "workoutRest": "Pause {time}",
+  "@workoutRest": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutRestSkip": "Weiter",
+  "workoutEmptyTitle": "Noch keine Übung",
+  "workoutEmptyText": "Füge eine Übung hinzu, um loszulegen.",
+  "workoutAddExercise": "Übung hinzufügen",
+  "workoutAddSet": "Satz",
+  "workoutRemoveSet": "Satz",
+  "workoutRemoveExercise": "Übung entfernen",
+  "workoutSwap": "Wechseln",
+  "workoutSwapEasier": "Leichter: {name}",
+  "@workoutSwapEasier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutSwapHarder": "Schwerer: {name}",
+  "@workoutSwapHarder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "targetReps": "{sets} × {range} Wdh.",
+  "@targetReps": {
+    "placeholders": {
+      "sets": {
+        "type": "int"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "targetSets": "{count, plural, =1{1 Satz} other{{count} Sätze}}",
+  "@targetSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setLabel": "Satz",
+  "repsLabel": "Wdh.",
+  "secondsLabel": "Sekunden",
+  "minutesLabel": "Minuten",
+  "setDone": "Satz abhaken",
+  "setUndo": "Haken entfernen",
+  "suggestFirst": "Erstes Mal: Wähl ein Gewicht, mit dem du alle Wiederholungen sauber schaffst.",
+  "suggestIncrease": "Stark! Alle Sätze geschafft — heute {delta} mehr.",
+  "@suggestIncrease": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestReps": "Ziel heute: {count} Wiederholungen je Satz.",
+  "@suggestReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "suggestTime": "Etwas länger als zuletzt: {delta} mehr.",
+  "@suggestTime": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestHarder": "Bereit für mehr: probier {name}.",
+  "@suggestHarder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestEasier": "Tipp: Mit {name} sauber aufbauen.",
+  "@suggestEasier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestDeload": "Zweimal knapp verfehlt — heute mit {weight} sauber neu aufbauen.",
+  "@suggestDeload": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "holdStart": "Timer starten",
+  "holdGetReady": "In Position …",
+  "holdHold": "Halten!",
+  "holdReached": "Ziel erreicht — halte weiter oder stopp.",
+  "holdTarget": "Ziel: {seconds} Sekunden",
+  "@holdTarget": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "holdStop": "Stopp",
+  "finishTitle": "Stark gemacht!",
+  "finishRecords": "Neue Rekorde",
+  "finishAchievements": "Neue Erfolge",
+  "statDuration": "Dauer",
+  "statSets": "Sätze",
+  "statVolume": "Bewegt",
+  "statWorkouts": "Trainings",
+  "statStreak": "Wochen in Folge",
+  "statLast": "Zuletzt",
+  "statBest": "Bestwert",
+  "statSessions": "Trainings",
+  "recordOneRepMax": "geschätztes Maximum {value}",
+  "@recordOneRepMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "recordPrevious": "{now} (vorher {before})",
+  "@recordPrevious": {
+    "placeholders": {
+      "now": {
+        "type": "String"
+      },
+      "before": {
+        "type": "String"
+      }
+    }
+  },
+  "historyDeleteTitle": "Training löschen?",
+  "historyDeleteText": "Das Training wird mit allen Sätzen und Rekorden gelöscht.",
+  "settingsTitle": "Einstellungen",
+  "settingsTraining": "Training",
+  "settingsDays": "Trainingstage",
+  "settingsWeeklyGoal": "Wochenziel",
+  "settingsPerWeek": "{count} × pro Woche",
+  "@settingsPerWeek": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsReminders": "Erinnerungen",
+  "settingsRemindersText": "An Trainingstagen zur gewählten Uhrzeit",
+  "settingsRemindersNoDays": "Wähle zuerst Trainingstage",
+  "settingsReminderTime": "Uhrzeit",
+  "settingsRestTimerText": "Startet nach jedem abgehakten Satz",
+  "settingsData": "Daten",
+  "settingsPrivacy": "Datenschutz",
+  "settingsPrivacyText": "Alles bleibt auf deinem Gerät: kein Konto, keine Cloud, keine Werbung, keine Analyse. Die Datenbank ist verschlüsselt; die App hat keinen Internetzugriff. Daten verlassen das Gerät nur, wenn du selbst eine Sicherung oder Tabelle teilst."
+}

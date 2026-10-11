@@ -1,0 +1,212 @@
+{
+  "setsCount": "{count, plural, =1{1 set} other{{count} sets}}",
+  "@setsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setsProgress": "{done}/{total} sets",
+  "@setsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutRunning": "Workout in progress",
+  "workoutResume": "Resume",
+  "workoutStart": "Start workout",
+  "workoutFree": "Free workout",
+  "workoutFreeName": "Free workout",
+  "workoutFinish": "Finish",
+  "workoutFinishTitle": "Finish workout?",
+  "workoutFinishOpenSets": "{count, plural, =1{1 set is not ticked off and will not count.} other{{count} sets are not ticked off and will not count.}}",
+  "@workoutFinishOpenSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutNothingDone": "You haven’t ticked off any sets yet. Discard this workout?",
+  "workoutDiscard": "Discard workout",
+  "workoutDiscardTitle": "Discard workout?",
+  "workoutDiscardText": "All sets of this workout will be deleted.",
+  "workoutRestTimer": "Rest timer",
+  "workoutRest": "Rest {time}",
+  "@workoutRest": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutRestSkip": "Skip",
+  "workoutEmptyTitle": "No exercise yet",
+  "workoutEmptyText": "Add an exercise to get started.",
+  "workoutAddExercise": "Add exercise",
+  "workoutAddSet": "Set",
+  "workoutRemoveSet": "Set",
+  "workoutRemoveExercise": "Remove exercise",
+  "workoutSwap": "Switch",
+  "workoutSwapEasier": "Easier: {name}",
+  "@workoutSwapEasier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutSwapHarder": "Harder: {name}",
+  "@workoutSwapHarder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "targetReps": "{sets} × {range} reps",
+  "@targetReps": {
+    "placeholders": {
+      "sets": {
+        "type": "int"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "targetSets": "{count, plural, =1{1 set} other{{count} sets}}",
+  "@targetSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setLabel": "Set",
+  "repsLabel": "Reps",
+  "secondsLabel": "Seconds",
+  "minutesLabel": "Minutes",
+  "setDone": "Tick off set",
+  "setUndo": "Untick set",
+  "suggestFirst": "First time: pick a weight you can do all reps with good form.",
+  "suggestIncrease": "Great! All sets done — {delta} more today.",
+  "@suggestIncrease": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestReps": "Today’s goal: {count} reps per set.",
+  "@suggestReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "suggestTime": "A bit longer than last time: {delta} more.",
+  "@suggestTime": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestHarder": "Ready for more: try {name}.",
+  "@suggestHarder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestEasier": "Tip: build up cleanly with {name}.",
+  "@suggestEasier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestDeload": "Missed twice — rebuild cleanly with {weight} today.",
+  "@suggestDeload": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "holdStart": "Start timer",
+  "holdGetReady": "Get into position …",
+  "holdHold": "Hold!",
+  "holdReached": "Goal reached — keep holding or stop.",
+  "holdTarget": "Goal: {seconds} seconds",
+  "@holdTarget": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "holdStop": "Stop",
+  "finishTitle": "Well done!",
+  "finishRecords": "New records",
+  "finishAchievements": "New achievements",
+  "statDuration": "Duration",
+  "statSets": "Sets",
+  "statVolume": "Lifted",
+  "statWorkouts": "Workouts",
+  "statStreak": "Weeks in a row",
+  "statLast": "Last",
+  "statBest": "Best",
+  "statSessions": "Sessions",
+  "recordOneRepMax": "estimated max {value}",
+  "@recordOneRepMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "recordPrevious": "{now} (before {before})",
+  "@recordPrevious": {
+    "placeholders": {
+      "now": {
+        "type": "String"
+      },
+      "before": {
+        "type": "String"
+      }
+    }
+  },
+  "historyDeleteTitle": "Delete workout?",
+  "historyDeleteText": "The workout will be deleted with all its sets and records.",
+  "settingsTitle": "Settings",
+  "settingsTraining": "Training",
+  "settingsDays": "Training days",
+  "settingsWeeklyGoal": "Weekly goal",
+  "settingsPerWeek": "{count} × per week",
+  "@settingsPerWeek": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsReminders": "Reminders",
+  "settingsRemindersText": "On training days at the chosen time",
+  "settingsRemindersNoDays": "Choose training days first",
+  "settingsReminderTime": "Time",
+  "settingsRestTimerText": "Starts after every completed set",
+  "settingsData": "Data",
+  "settingsPrivacy": "Privacy",
+  "settingsPrivacyText": "Everything stays on your device: no account, no cloud, no ads, no analytics. The database is encrypted and the app has no internet access. Data only leaves the device when you share a backup or table yourself."
+}

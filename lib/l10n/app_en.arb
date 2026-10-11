@@ -1,0 +1,566 @@
+{
+  "@@locale": "en",
+  "appTitle": "Fitness",
+  "tabToday": "Today",
+  "tabPlans": "Plans",
+  "tabProgress": "Progress",
+  "tabExercises": "Exercises",
+  "commonBack": "Back",
+  "commonCancel": "Cancel",
+  "commonClear": "Clear",
+  "commonContinue": "Continue",
+  "commonDelete": "Delete",
+  "commonDone": "Done",
+  "commonEdit": "Edit",
+  "commonMore": "More",
+  "commonRemove": "Remove",
+  "commonRetry": "Try again",
+  "commonSave": "Save",
+  "commonToday": "Today",
+  "commonTomorrow": "Tomorrow",
+  "commonUnderstood": "Got it",
+  "unitKg": "{value} kg",
+  "@unitKg": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitKgShort": "kg",
+  "unitTons": "{value} t",
+  "@unitTons": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitMinutes": "{count} min",
+  "@unitMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "unitHoursMinutes": "{hours} h {minutes} min",
+  "@unitHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "unitReps": "{count, plural, =1{1 rep} other{{count} reps}}",
+  "@unitReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "muscleChest": "Chest",
+  "muscleBack": "Back",
+  "muscleShoulders": "Shoulders",
+  "muscleBiceps": "Biceps",
+  "muscleTriceps": "Triceps",
+  "muscleCore": "Core",
+  "muscleQuads": "Quads",
+  "muscleHamstrings": "Hamstrings",
+  "muscleGlutes": "Glutes",
+  "muscleCalves": "Calves",
+  "muscleFullBody": "Full body",
+  "muscleCardio": "Cardio",
+  "equipmentMachine": "Machine",
+  "equipmentCable": "Cable",
+  "equipmentBarbell": "Barbell",
+  "equipmentDumbbell": "Dumbbells",
+  "equipmentBodyweight": "Bodyweight",
+  "equipmentBar": "Bar / bench",
+  "equipmentCardio": "Cardio machine",
+  "trackingWeightReps": "Weight × reps",
+  "trackingReps": "Reps",
+  "trackingDuration": "Hold time",
+  "trackingCardio": "Duration (cardio)",
+  "exerciseInstructions": "Instructions",
+  "exercisePick": "Choose exercise",
+  "exerciseSearch": "Search exercises",
+  "exerciseCustomNew": "Own exercise",
+  "exerciseCustomEdit": "Edit exercise",
+  "exerciseCustomNoNotes": "Your own exercise — no instructions.",
+  "exerciseAdvanced": "Advanced",
+  "exerciseSetup": "Setup & start",
+  "exerciseSteps": "How to",
+  "exerciseTips": "Tips",
+  "exerciseMistakes": "Common mistakes",
+  "exerciseYourProgress": "Your progress",
+  "exerciseNoHistory": "Not trained yet. After your first workout you’ll see your history here.",
+  "exerciseMetricOneRepMax": "Estimated one-rep max",
+  "exerciseMetricBest": "Best set",
+  "exerciseNextTime": "Next time: {text}",
+  "@exerciseNextTime": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseNoneTitle": "Nothing found",
+  "exerciseNoneText": "Try another filter or create your own exercise.",
+  "exerciseName": "Name",
+  "exerciseNameMissing": "Please enter a name",
+  "exerciseTracking": "Tracked as",
+  "exerciseEquipment": "Equipment",
+  "exerciseMuscle": "Main muscle",
+  "exerciseNotes": "Notes / instructions",
+  "exerciseNotesHint": "e.g. seat height 4, narrow grip",
+  "exerciseArchiveTitle": "Delete exercise?",
+  "exerciseArchiveText": "The exercise disappears from the list. Your history is kept.",
+  "filterAll": "All",
+  "filterMachines": "Machines",
+  "filterFreeWeights": "Free weights",
+  "filterBodyweight": "Bodyweight",
+  "filterCardio": "Cardio",
+  "onboardingWelcomeTitle": "Welcome!",
+  "onboardingWelcomeText": "Your training companion for the gym and at home.",
+  "onboardingPointGuide": "Instructions for common machines and bodyweight exercises",
+  "onboardingPointProgress": "Tick off sets — the app increases weight and reps automatically",
+  "onboardingPointAchievements": "Achievements, a weekly goal and reminders keep you going",
+  "onboardingPointPrivacy": "Everything stays encrypted on your device — no account",
+  "onboardingPlaceTitle": "Where do you train?",
+  "onboardingPlaceText": "We’ll set up matching beginner plans. You can change them anytime.",
+  "placeGym": "At the gym",
+  "placeGymText": "Two full-body machine plans (alternating A/B)",
+  "placeHome": "At home",
+  "placeHomeText": "Two full-body plans without equipment",
+  "placeBoth": "Both",
+  "placeBothText": "Gym plans plus one plan for home",
+  "placeOwn": "Build my own",
+  "placeOwnText": "Start without a template",
+  "onboardingDaysTitle": "When do you train?",
+  "onboardingDaysText": "For beginners 2–3 days a week is ideal, with a rest day in between.",
+  "onboardingRemindText": "A reminder on your training days",
+  "onboardingStart": "Let’s go",
+  "onboardingRestore": "I have a backup",
+  "achievementsTitle": "Achievements",
+  "achievementsCount": "{done} of {total} achievements",
+  "@achievementsCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsUnlockedAt": "Unlocked on {date}",
+  "@achievementsUnlockedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "progressEmptyTitle": "No workouts yet",
+  "progressEmptyText": "After your first workout you’ll see your progress, forecasts and achievements here.",
+  "progressWeeks": "Workouts per week (goal: {goal})",
+  "@progressWeeks": {
+    "placeholders": {
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "progressExercises": "Your exercises",
+  "progressHistory": "History",
+  "progressNeedMore": "Forecast after a few workouts",
+  "progressForecast": "In 8 weeks ≈ {value}",
+  "@progressForecast": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisTitle": "Forecast",
+  "prognosisRising": "If you keep this up: ≈ {in4} in 4 weeks, ≈ {in8} in 8 weeks.",
+  "@prognosisRising": {
+    "placeholders": {
+      "in4": {
+        "type": "String"
+      },
+      "in8": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisFlat": "A plateau right now — the automatic progression will help you past it.",
+  "prognosisFalling": "A bit less lately — allow some recovery, then it goes up again.",
+  "routineNew": "New plan",
+  "routineEdit": "Edit plan",
+  "routineTemplates": "Templates",
+  "routineExerciseCount": "{count, plural, =1{1 exercise} other{{count} exercises}}",
+  "@routineExerciseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routineEmptyTitle": "No plan yet",
+  "routineEmptyText": "A plan is a list of exercises with goals. Start with a template or build your own.",
+  "routineRotationHint": "Your plans take turns (A → B → A …). Long-press and drag to reorder.",
+  "routineName": "Plan name",
+  "routineNameHint": "e.g. Full body A",
+  "routineNameMissing": "Please give the plan a name.",
+  "routineSets": "Sets",
+  "routineRepMin": "Reps from",
+  "routineRepMax": "Reps to",
+  "routineRest": "Rest",
+  "routineDeleteTitle": "Delete plan?",
+  "routineDeleteText": "The plan disappears. Your past workouts are kept.",
+  "routineLeaveTitle": "Discard changes?",
+  "routineLeaveText": "Your changes to the plan are not saved yet.",
+  "routineLeaveDiscard": "Discard",
+  "keyUnavailableTitle": "Data not readable right now",
+  "keyUnavailableText": "The key for your encrypted data is not available right now. Your data is safe — try again in a moment or restart your device.",
+  "unreadableTitle": "Old data could not be read",
+  "unreadableText": "Your previous data could no longer be decrypted on this device and was set aside. Restore it from a backup (Settings → Data).",
+  "backupIntro": "Backup: all your data, encrypted in one file — for a new phone or just in case. It cannot be read without the password.",
+  "backupCreate": "Back up",
+  "backupRestore": "Restore",
+  "backupCreated": "Backup created",
+  "backupFailed": "Sorry, that did not work.",
+  "backupPassphrase": "Password",
+  "backupPassphraseCreateHint": "Choose a password for the backup. It cannot be restored without it — keep it safe!",
+  "backupPassphraseRestoreHint": "Backup password",
+  "backupPassphraseRepeat": "Repeat password",
+  "backupPassphraseMismatch": "Passwords do not match",
+  "backupPassphraseTooShort": "At least 8 characters",
+  "backupPick": "Choose backup",
+  "backupReplace": "Replace",
+  "backupRestoreConfirmTitle": "Replace all data?",
+  "backupRestoreConfirmText": "All plans, workouts and settings on this device will be replaced by the backup.",
+  "backupRestored": "Backup from {date} restored",
+  "@backupRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupShareSubject": "Fitness backup",
+  "backupTooNew": "This backup is from a newer app version. Please update the app.",
+  "backupUnsupported": "Backups are not available here.",
+  "backupWrongApp": "This is not a Fitness backup.",
+  "csvExport": "Share history as table (CSV)",
+  "csvShareSubject": "Workout history",
+  "csvDate": "Date",
+  "csvWorkout": "Workout",
+  "csvExercise": "Exercise",
+  "csvSet": "Set",
+  "csvWeight": "Weight (kg)",
+  "csvReps": "Reps",
+  "csvSeconds": "Seconds",
+  "reminderTitle": "Time to train 💪",
+  "reminderBody": "Up today: {name}",
+  "@reminderBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderBodyFree": "Today is a training day.",
+  "reminderChannel": "Workout reminders",
+  "nextTitle": "Next workout",
+  "nextAnyDay": "whenever you like",
+  "nextNoPlanTitle": "Let’s get started",
+  "nextNoPlanText": "Create a workout plan or start a free workout.",
+  "nextExercises": "{count, plural, =1{1 exercise: {names}} other{{count} exercises: {names}}}",
+  "@nextExercises": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "weekTitle": "This week",
+  "weekStreak": "{count, plural, =1{1 week in a row} other{{count} weeks in a row}}",
+  "@weekStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekGoalReached": "Weekly goal reached — {count} workouts!",
+  "@weekGoalReached": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekProgress": "{done} of {goal} workouts",
+  "@weekProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsNew": "{count, plural, =1{New achievement!} other{{count} new achievements!}}",
+  "@achievementsNew": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recentTitle": "Recent workouts",
+  "recentAll": "All",
+  "widgetNextTitle": "Next workout",
+  "widgetAnyDay": "Ready when you are",
+  "widgetEmpty": "Create a plan in the app",
+  "widgetWeek": "{done}/{goal} this week",
+  "@widgetWeek": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "widgetMore": "+{count} more",
+  "@widgetMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setsCount": "{count, plural, =1{1 set} other{{count} sets}}",
+  "@setsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setsProgress": "{done}/{total} sets",
+  "@setsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutRunning": "Workout in progress",
+  "workoutResume": "Resume",
+  "workoutStart": "Start workout",
+  "workoutFree": "Free workout",
+  "workoutFreeName": "Free workout",
+  "workoutFinish": "Finish",
+  "workoutFinishTitle": "Finish workout?",
+  "workoutFinishOpenSets": "{count, plural, =1{1 set is not ticked off and will not count.} other{{count} sets are not ticked off and will not count.}}",
+  "@workoutFinishOpenSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutNothingDone": "You haven’t ticked off any sets yet. Discard this workout?",
+  "workoutDiscard": "Discard workout",
+  "workoutDiscardTitle": "Discard workout?",
+  "workoutDiscardText": "All sets of this workout will be deleted.",
+  "workoutRestTimer": "Rest timer",
+  "workoutRest": "Rest {time}",
+  "@workoutRest": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutRestSkip": "Skip",
+  "workoutEmptyTitle": "No exercise yet",
+  "workoutEmptyText": "Add an exercise to get started.",
+  "workoutAddExercise": "Add exercise",
+  "workoutAddSet": "Set",
+  "workoutRemoveSet": "Set",
+  "workoutRemoveExercise": "Remove exercise",
+  "workoutSwap": "Switch",
+  "workoutSwapEasier": "Easier: {name}",
+  "@workoutSwapEasier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "workoutSwapHarder": "Harder: {name}",
+  "@workoutSwapHarder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "targetReps": "{sets} × {range} reps",
+  "@targetReps": {
+    "placeholders": {
+      "sets": {
+        "type": "int"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "targetSets": "{count, plural, =1{1 set} other{{count} sets}}",
+  "@targetSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "setLabel": "Set",
+  "repsLabel": "Reps",
+  "secondsLabel": "Seconds",
+  "minutesLabel": "Minutes",
+  "setDone": "Tick off set",
+  "setUndo": "Untick set",
+  "suggestFirst": "First time: pick a weight you can do all reps with good form.",
+  "suggestIncrease": "Great! All sets done — {delta} more today.",
+  "@suggestIncrease": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestReps": "Today’s goal: {count} reps per set.",
+  "@suggestReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "suggestTime": "A bit longer than last time: {delta} more.",
+  "@suggestTime": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestHarder": "Ready for more: try {name}.",
+  "@suggestHarder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestEasier": "Tip: build up cleanly with {name}.",
+  "@suggestEasier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestDeload": "Missed twice — rebuild cleanly with {weight} today.",
+  "@suggestDeload": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "holdStart": "Start timer",
+  "holdGetReady": "Get into position …",
+  "holdHold": "Hold!",
+  "holdReached": "Goal reached — keep holding or stop.",
+  "holdTarget": "Goal: {seconds} seconds",
+  "@holdTarget": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "holdStop": "Stop",
+  "finishTitle": "Well done!",
+  "finishRecords": "New records",
+  "finishAchievements": "New achievements",
+  "statDuration": "Duration",
+  "statSets": "Sets",
+  "statVolume": "Lifted",
+  "statWorkouts": "Workouts",
+  "statStreak": "Weeks in a row",
+  "statLast": "Last",
+  "statBest": "Best",
+  "statSessions": "Sessions",
+  "recordOneRepMax": "estimated max {value}",
+  "@recordOneRepMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "recordPrevious": "{now} (before {before})",
+  "@recordPrevious": {
+    "placeholders": {
+      "now": {
+        "type": "String"
+      },
+      "before": {
+        "type": "String"
+      }
+    }
+  },
+  "historyDeleteTitle": "Delete workout?",
+  "historyDeleteText": "The workout will be deleted with all its sets and records.",
+  "settingsTitle": "Settings",
+  "settingsTraining": "Training",
+  "settingsDays": "Training days",
+  "settingsWeeklyGoal": "Weekly goal",
+  "settingsPerWeek": "{count} × per week",
+  "@settingsPerWeek": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsReminders": "Reminders",
+  "settingsRemindersText": "On training days at the chosen time",
+  "settingsRemindersNoDays": "Choose training days first",
+  "settingsReminderTime": "Time",
+  "settingsRestTimerText": "Starts after every completed set",
+  "settingsData": "Data",
+  "settingsPrivacy": "Privacy",
+  "settingsPrivacyText": "Everything stays on your device: no account, no cloud, no ads, no analytics. The database is encrypted and the app has no internet access. Data only leaves the device when you share a backup or table yourself."
+}

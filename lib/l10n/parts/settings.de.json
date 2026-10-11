@@ -1,0 +1,53 @@
+{
+  "keyUnavailableTitle": "Daten gerade nicht lesbar",
+  "keyUnavailableText": "Der Schlüssel deiner verschlüsselten Daten ist gerade nicht erreichbar. Deine Daten sind sicher — versuch es gleich noch einmal oder starte das Gerät neu.",
+  "unreadableTitle": "Alte Daten nicht lesbar",
+  "unreadableText": "Deine bisherigen Daten ließen sich auf diesem Gerät nicht mehr entschlüsseln und wurden beiseitegelegt. Stell sie über eine Sicherung wieder her (Einstellungen → Daten).",
+  "backupIntro": "Sicherung: alle Daten verschlüsselt in einer Datei — für ein neues Handy oder zur Vorsorge. Ohne Passwort ist sie nicht lesbar.",
+  "backupCreate": "Sichern",
+  "backupRestore": "Wiederherstellen",
+  "backupCreated": "Sicherung erstellt",
+  "backupFailed": "Das hat leider nicht geklappt.",
+  "backupPassphrase": "Passwort",
+  "backupPassphraseCreateHint": "Wähle ein Passwort für die Sicherung. Ohne dieses Passwort lässt sie sich nicht wiederherstellen — gut merken!",
+  "backupPassphraseRestoreHint": "Passwort der Sicherung",
+  "backupPassphraseRepeat": "Passwort wiederholen",
+  "backupPassphraseMismatch": "Die Passwörter stimmen nicht überein",
+  "backupPassphraseTooShort": "Mindestens 8 Zeichen",
+  "backupPick": "Sicherung auswählen",
+  "backupReplace": "Ersetzen",
+  "backupRestoreConfirmTitle": "Alle Daten ersetzen?",
+  "backupRestoreConfirmText": "Alle Pläne, Trainings und Einstellungen auf diesem Gerät werden durch die Sicherung ersetzt.",
+  "backupRestored": "Sicherung vom {date} wiederhergestellt",
+  "@backupRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupShareSubject": "Fitness-Sicherung",
+  "backupTooNew": "Diese Sicherung stammt aus einer neueren App-Version. Bitte aktualisiere die App.",
+  "backupUnsupported": "Sicherungen sind hier nicht verfügbar.",
+  "backupWrongApp": "Das ist keine Sicherung der Fitness-App.",
+  "csvExport": "Verlauf als Tabelle teilen (CSV)",
+  "csvShareSubject": "Trainingsverlauf",
+  "csvDate": "Datum",
+  "csvWorkout": "Training",
+  "csvExercise": "Übung",
+  "csvSet": "Satz",
+  "csvWeight": "Gewicht (kg)",
+  "csvReps": "Wiederholungen",
+  "csvSeconds": "Sekunden",
+  "reminderTitle": "Zeit fürs Training 💪",
+  "reminderBody": "Heute dran: {name}",
+  "@reminderBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderBodyFree": "Heute ist Trainingstag.",
+  "reminderChannel": "Trainingserinnerungen"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Homescreen-Widget, hell. Farben aus dem App-Orange (seed #C4511F);
+     ab Android 12 dynamisch (values-v31). -->
+<resources>
+    <color name="widget_surface">#FFFFF8F6</color>
+    <color name="widget_on_surface">#FF231917</color>
+    <color name="widget_on_surface_variant">#FF53433F</color>
+    <color name="widget_primary">#FFA23F16</color>
+    <color name="widget_on_primary">#FFFFFFFF</color>
+    <color name="widget_primary_container">#FFFFDBCF</color>
+    <color name="widget_on_primary_container">#FF380D00</color>
+</resources>

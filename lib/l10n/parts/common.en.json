@@ -1,0 +1,65 @@
+{
+  "appTitle": "Fitness",
+  "tabToday": "Today",
+  "tabPlans": "Plans",
+  "tabProgress": "Progress",
+  "tabExercises": "Exercises",
+  "commonBack": "Back",
+  "commonCancel": "Cancel",
+  "commonClear": "Clear",
+  "commonContinue": "Continue",
+  "commonDelete": "Delete",
+  "commonDone": "Done",
+  "commonEdit": "Edit",
+  "commonMore": "More",
+  "commonRemove": "Remove",
+  "commonRetry": "Try again",
+  "commonSave": "Save",
+  "commonToday": "Today",
+  "commonTomorrow": "Tomorrow",
+  "commonUnderstood": "Got it",
+  "unitKg": "{value} kg",
+  "@unitKg": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitKgShort": "kg",
+  "unitTons": "{value} t",
+  "@unitTons": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "unitMinutes": "{count} min",
+  "@unitMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "unitHoursMinutes": "{hours} h {minutes} min",
+  "@unitHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "unitReps": "{count, plural, =1{1 rep} other{{count} reps}}",
+  "@unitReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

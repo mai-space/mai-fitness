@@ -1,0 +1,57 @@
+{
+  "achievementsTitle": "Erfolge",
+  "achievementsCount": "{done} von {total} Erfolgen",
+  "@achievementsCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsUnlockedAt": "Erreicht am {date}",
+  "@achievementsUnlockedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "progressEmptyTitle": "Noch kein Training",
+  "progressEmptyText": "Nach deinem ersten Training siehst du hier deinen Fortschritt, Prognosen und Erfolge.",
+  "progressWeeks": "Trainings pro Woche (Ziel: {goal})",
+  "@progressWeeks": {
+    "placeholders": {
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "progressExercises": "Deine Übungen",
+  "progressHistory": "Verlauf",
+  "progressNeedMore": "Prognose nach ein paar Trainings",
+  "progressForecast": "In 8 Wochen ≈ {value}",
+  "@progressForecast": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisTitle": "Prognose",
+  "prognosisRising": "Wenn du so weitermachst: in 4 Wochen ≈ {in4}, in 8 Wochen ≈ {in8}.",
+  "@prognosisRising": {
+    "placeholders": {
+      "in4": {
+        "type": "String"
+      },
+      "in8": {
+        "type": "String"
+      }
+    }
+  },
+  "prognosisFlat": "Gerade ein Plateau — die automatische Steigerung hilft dir darüber.",
+  "prognosisFalling": "Zuletzt etwas weniger — gönn dir Erholung, dann geht’s wieder aufwärts."
+}
