@@ -145,6 +145,16 @@ jobs:
           # Runner-RAM schonen; Daemon in CI ausschalten
           GRADLE_OPTS: "-Dorg.gradle.daemon=false"
 
+      # Wear-OS-Begleit-App (android/wear): eigenes APK, gleicher Schlüssel.
+      # gradlew legt `flutter build apk` an.
+      - name: Build Wear OS APK
+        working-directory: android
+        run: |
+          set -o pipefail
+          ./gradlew :wear:assembleRelease 2>&1 | tee -a ../apk-build.log
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+
       - name: Upload APK build log (failure)
         if: failure()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -156,7 +166,9 @@ jobs:
 
       # Einheitlicher Name aller Mai-Apps: <repo>.apk
       - name: Rename APK
-        run: cp build/app/outputs/flutter-apk/app-release.apk mai-fitness.apk
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk mai-fitness.apk
+          cp build/wear/outputs/apk/release/wear-release.apk mai-fitness-wear.apk
 
       - name: Upload APK artifact
         if: success()
@@ -164,5 +176,14 @@ jobs:
         with:
           name: mai-fitness.apk
           path: mai-fitness.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload Wear OS APK artifact
+        if: success()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: mai-fitness-wear.apk
+          path: mai-fitness-wear.apk
           if-no-files-found: error
           retention-days: 14

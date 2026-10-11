@@ -1,0 +1,75 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Wie die Telefon-App: keine INTERNET-Berechtigung (auch nicht aus
+         Bibliotheken). Daten kommen nur vom gekoppelten Telefon. -->
+    <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:label="@string/watch_app_name"
+        android:icon="@drawable/ic_fitness"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <!-- Braucht die Telefon-App (Stand kommt von dort). -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="false" />
+
+        <activity
+            android:name=".WatchActivity"
+            android:exported="true"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Kachel „Nächstes Training“. -->
+        <service
+            android:name=".NextWorkoutTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_fitness"
+            android:label="@string/watch_next_title"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+        </service>
+
+        <!-- Komplikation fürs Zifferblatt. -->
+        <service
+            android:name=".NextWorkoutComplicationService"
+            android:exported="true"
+            android:icon="@drawable/ic_fitness"
+            android:label="@string/watch_complication_label"
+            android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
+            <intent-filter>
+                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.wearable.complications.SUPPORTED_TYPES"
+                android:value="SHORT_TEXT,LONG_TEXT,RANGED_VALUE" />
+            <!-- Stündlich, damit „Heute/Morgen“ nach Mitternacht stimmt;
+                 neue Stände vom Telefon kommen sofort. -->
+            <meta-data
+                android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS"
+                android:value="3600" />
+        </service>
+
+        <!-- Stand vom Telefon (Wearable-Datenschicht). -->
+        <service
+            android:name=".WatchDataListener"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data
+                    android:scheme="wear"
+                    android:host="*"
+                    android:pathPrefix="/mai-fitness/next" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

@@ -76,4 +76,6 @@ flutter {
 
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+    // Wear OS: Stand an die Uhr-App (android/wear) — Datenschicht der Play-Dienste.
+    implementation("com.google.android.gms:play-services-wearable:18.2.0")
 }

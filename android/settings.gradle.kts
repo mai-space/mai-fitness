@@ -24,3 +24,5 @@ plugins {
 }
 
 include(":app")
+// Wear-OS-Begleit-App (Kachel, Komplikation) — eigenes APK, gleiche Paket-ID.
+include(":wear")
