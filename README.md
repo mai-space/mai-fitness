@@ -70,3 +70,58 @@ flutter build apk --release
 
 Die CI baut bei jedem Push die Release-APK und lädt sie als
 `mai-fitness.apk` hoch.
+
+## Veröffentlichen (Play Store)
+
+Store-Texte, Symbol, Vorstellungsgrafik und Screenshots liegen in
+[`store/android/`](store/android/README.md).
+
+Auf `main` baut die CI zusätzlich **signierte App Bundles** (`mai-fitness.aab`
+für das Telefon, `mai-fitness-wear.aab` für die Uhr) und lädt sie als Artefakt
+`mai-fitness-aab` hoch, sobald die Signatur-Secrets gesetzt sind. Ohne Secrets
+läuft alles wie bisher mit Debug-Key. Mit Secrets signiert die CI auf `main`
+auch die APKs mit dem Upload-Schlüssel und prüft, dass kein Debug-Key in den
+Bundles steckt. Schlüssel und Passwörter liegen nie im Repo: Keystore und
+`android/key.properties` entstehen nur im Runner und werden danach gelöscht
+(`key.properties`, `*.jks`, `*.keystore` sind in `.gitignore`).
+
+**1. Upload-Schlüssel einmalig erzeugen** (gut aufbewahren, z. B. im
+Passwort-Manager; mit Play App Signing verwaltet Google den eigentlichen
+App-Schlüssel, der Upload-Schlüssel lässt sich bei Verlust zurücksetzen):
+
+```bash
+keytool -genkeypair -v -keystore upload-keystore.jks -storetype JKS \
+  -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+base64 -w0 upload-keystore.jks > upload-keystore.jks.b64   # macOS: base64 -i upload-keystore.jks
+```
+
+**2. GitHub-Secrets anlegen** (Repo → Settings → Secrets and variables →
+Actions → New repository secret), gleiche Namen wie in den anderen Mai-Apps:
+
+| Secret | Inhalt |
+|---|---|
+| `ANDROID_KEYSTORE_BASE64` | Inhalt von `upload-keystore.jks.b64` |
+| `ANDROID_KEYSTORE_PASSWORD` | Passwort des Keystores |
+| `ANDROID_KEY_ALIAS` | Alias (`upload` im Beispiel) |
+| `ANDROID_KEY_PASSWORD` | Passwort des Schlüssels |
+
+Danach die `.b64`-Datei löschen. Der nächste Push auf `main` (oder „Re-run“
+des letzten Laufs) liefert die signierten Bundles.
+
+**3. Lokal signiert bauen** (optional): `android/key.properties` anlegen
+(nicht einchecken, ist ignoriert):
+
+```properties
+storeFile=/absoluter/pfad/zu/upload-keystore.jks
+storePassword=…
+keyAlias=upload
+keyPassword=…
+```
+
+```bash
+flutter build appbundle --release
+(cd android && ./gradlew :wear:bundleRelease)
+```
+
+Die Versionsnummer kommt aus `version:` in `pubspec.yaml`; für jedes neue
+Bundle in der Play Console die Build-Nummer (`+N`) erhöhen.
