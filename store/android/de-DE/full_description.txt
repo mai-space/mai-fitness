@@ -1,0 +1,35 @@
+Fitness ist dein Trainingsbegleiter fürs Studio und für zu Hause. Die App sagt dir, was heute dran ist, wie die Übung geht und mit welchem Gewicht oder wie vielen Wiederholungen du trainierst – und passt das nach jedem Training von selbst an. Ohne Konto, ohne Werbung, alles bleibt verschlüsselt auf deinem Gerät.
+
+SO EINFACH GEHT'S
+• Einrichtung in drei Schritten: Studio, zu Hause oder beides, dazu deine Trainingstage.
+• Du bekommst zwei Einsteigerpläne im Wechsel (A/B), die du jederzeit anpassen kannst.
+• Im Training hakst du Sätze ab. Pausen-Timer und Halte-Timer laufen mit.
+
+AUTOMATISCHE STEIGERUNG
+Fitness arbeitet mit doppelter Progression: Erst kommen Wiederholungen dazu, wenn du alle Sätze am oberen Ende schaffst, steigt das Gewicht. Ohne Geräte schlägt die App die schwerere Variante vor (zum Beispiel vom Knie-Liegestütz zum Liegestütz). Klappt es zweimal in Folge nicht, wird es wieder etwas leichter.
+
+63 ÜBUNGEN MIT ANLEITUNG
+Gängige Studio-Geräte, Kabelzug, freie Gewichte, Übungen ohne Geräte und Cardio. Zu jeder Übung: Einstellung am Gerät, Ablauf Schritt für Schritt, Tipps, häufige Fehler sowie eine leichtere und eine schwerere Variante. Eigene Übungen kannst du ergänzen.
+
+FORTSCHRITT, DEN DU SIEHST
+• Wochenziel und Serie in Wochen
+• Bestwerte und Verlauf je Übung
+• Vorsichtige Prognose: Wo du in 4 und 8 Wochen stehen könntest, wenn du so weitermachst
+• Trainingsverlauf mit allen Sätzen
+
+DRANBLEIBEN
+• 31 Erfolge, zum Beispiel für Serien, bewegtes Gewicht und neue Bestwerte
+• Erinnerung an deinen Trainingstagen zur gewünschten Uhrzeit (entfällt, wenn du schon trainiert hast)
+• Widget „Nächstes Training“ für den Startbildschirm, frei skalierbar
+• Wear OS: Kachel und Komplikation mit deinem nächsten Training
+
+DEINE DATEN GEHÖREN DIR
+• Kein Konto, keine Werbung, keine Analyse-Dienste
+• Die App hat keinen Internetzugriff
+• Datenbank verschlüsselt, der Schlüssel liegt im Android Keystore
+• Sicherung als passwortgeschützte Datei zum Umziehen auf ein neues Handy
+• Trainingsverlauf als CSV-Tabelle exportieren
+
+Fitness ist ein Trainingstagebuch und Planer. Die App ersetzt keine Beratung durch Trainer, Ärztinnen oder Ärzte. Hör beim Training auf deinen Körper.
+
+Sprachen: Deutsch und Englisch (nach Systemsprache).

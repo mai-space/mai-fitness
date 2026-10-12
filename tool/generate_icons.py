@@ -91,6 +91,15 @@ def ios_icons():
         flat.save(folder / name, optimize=True)
 
 
+def play_store_icon():
+    """Play-Store-Symbol 512 × 512, vollflächig (Google rundet selbst ab)."""
+    source = svg(
+        BACKGROUND + '<rect width="108" height="108" fill="url(#bg)"/>' + MOTIF,
+        view="14 14 80 80",
+    )
+    png(source, ROOT / "store/android/icon_512.png", 512)
+
+
 def main():
     densities = {"mdpi": 1, "hdpi": 1.5, "xhdpi": 2, "xxhdpi": 3, "xxxhdpi": 4}
     for name, factor in densities.items():
@@ -100,6 +109,7 @@ def main():
         # Themed Icons (Android 13+) nutzen nur Alpha: die Hantel selbst.
         png(FOREGROUND, folder / "ic_launcher_monochrome.png", round(108 * factor))
     ios_icons()
+    play_store_icon()
 
 
 if __name__ == "__main__":

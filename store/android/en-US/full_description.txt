@@ -1,0 +1,35 @@
+Fitness is your training companion for the gym and at home. It tells you what's on today, how each exercise works and which weight or how many reps to aim for – and adjusts that by itself after every workout. No account, no ads, everything stays encrypted on your device.
+
+HOW IT WORKS
+• Set up in three steps: gym, home or both, plus your training days.
+• You get two beginner plans that take turns (A/B), and you can change them any time.
+• During a workout you tick off sets. Rest timer and hold timer run along.
+
+AUTOMATIC PROGRESSION
+Fitness uses double progression: first you add reps, and once you hit the top of the range in every set, the weight goes up. For bodyweight exercises the app suggests the harder variation (for example from knee push-ups to push-ups). If it doesn't work out twice in a row, it gets a little lighter again.
+
+63 EXERCISES WITH HOW-TOS
+Common gym machines, cable, free weights, bodyweight exercises and cardio. Each exercise comes with machine setup, step-by-step instructions, tips, common mistakes and an easier and a harder variation. You can add your own exercises.
+
+PROGRESS YOU CAN SEE
+• Weekly goal and streak in weeks
+• Personal bests and history per exercise
+• Cautious forecast: where you could be in 4 and 8 weeks if you keep going
+• Workout history with every set
+
+KEEP GOING
+• 31 achievements, for example for streaks, total weight lifted and new personal bests
+• Reminder on your training days at the time you choose (skipped if you already trained)
+• "Next workout" home screen widget, freely resizable
+• Wear OS: tile and complication with your next workout
+
+YOUR DATA STAYS YOURS
+• No account, no ads, no analytics
+• The app has no internet access
+• Encrypted database, key stored in the Android Keystore
+• Password-protected backup file to move to a new phone
+• Export your workout history as a CSV spreadsheet
+
+Fitness is a training log and planner. It does not replace advice from a trainer or doctor. Listen to your body when you train.
+
+Languages: German and English (follows your system language).
