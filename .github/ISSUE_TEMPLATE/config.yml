@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Datenschutzerklärung / Privacy policy
+    url: https://mai-space.github.io/mai-fitness/datenschutz/
+    about: So geht „Fitness“ mit deinen Daten um. Fragen zum Datenschutz bitte per E-Mail (Adresse in der Erklärung), nicht als Issue.

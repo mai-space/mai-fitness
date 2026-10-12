@@ -1,0 +1,35 @@
+name: Idee vorschlagen
+description: Wunsch für eine neue Funktion oder Verbesserung in „Fitness“.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Schön, dass du eine Idee hast! **Issues sind öffentlich**, bitte keine persönlichen Daten eintragen,
+        insbesondere keine Körper- und Trainingsdaten (Gewicht, Maße, Trainingsverlauf). English is welcome, too.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Worum geht es?
+      description: Welche Situation oder welches Problem möchtest du lösen?
+    validations:
+      required: true
+  - type: textarea
+    id: idee
+    attributes:
+      label: Wie stellst du dir die Lösung vor?
+    validations:
+      required: false
+  - type: textarea
+    id: alternativen
+    attributes:
+      label: Hast du Alternativen überlegt?
+    validations:
+      required: false
+  - type: checkboxes
+    id: datenschutz
+    attributes:
+      label: Datenschutz
+      options:
+        - label: Ich habe keine persönlichen Daten in diesen Vorschlag geschrieben oder angehängt.
+          required: true
