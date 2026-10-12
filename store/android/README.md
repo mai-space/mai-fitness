@@ -12,6 +12,7 @@ Haupteintrag im Play Store). Deutsch ist `de-DE`, Englisch `en-US`
 | `icon_512.png` | App-Symbol | 512 × 512 PNG, für beide Sprachen |
 | `de-DE/feature_graphic.png`, `en-US/…` | Vorstellungsgrafik | 1024 × 500 PNG |
 | `de-DE/phone_0*.png`, `en-US/…` | Screenshots → Smartphone | 8 Stück, 1080 × 1920 PNG |
+| – | Store-Einstellungen → Kontaktdaten: E-Mail | `joel@maispace.de` (Entwicklerkonto „maispace“) |
 
 Reihenfolge der Screenshots = Dateiname (01 Heute, 02 Training läuft,
 03 Anleitung, 04 Verlauf mit Prognose, 05 Fortschritt, 06 Einrichtung mit
