@@ -77,9 +77,42 @@ jobs:
     needs: [analyze-test, dart-packages]
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # Signierter Build nur bei Push auf main und nur mit gesetztem
+      # Upload-Schlüssel (Secrets); sonst wie bisher mit Debug-Key.
+      SIGNED: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.ANDROID_KEYSTORE_BASE64 != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      # Keystore und key.properties nur im Runner, nie im Repo oder Log.
+      - name: Write signing config
+        if: env.SIGNED == 'true'
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          missing=""
+          [ -n "$KEYSTORE_PASSWORD" ] || missing="$missing ANDROID_KEYSTORE_PASSWORD"
+          [ -n "$KEY_ALIAS" ] || missing="$missing ANDROID_KEY_ALIAS"
+          [ -n "$KEY_PASSWORD" ] || missing="$missing ANDROID_KEY_PASSWORD"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing secrets:$missing (see README, Veröffentlichen)"
+            exit 1
+          fi
+          umask 077
+          keystore="$RUNNER_TEMP/upload-keystore.jks"
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$keystore"
+          {
+            printf 'storeFile=%s\n' "$keystore"
+            printf 'storePassword=%s\n' "$KEYSTORE_PASSWORD"
+            printf 'keyAlias=%s\n' "$KEY_ALIAS"
+            printf 'keyPassword=%s\n' "$KEY_PASSWORD"
+          } > android/key.properties
+          # Ab hier bricht Gradle ab, statt mit dem Debug-Key zu signieren.
+          echo "REQUIRE_RELEASE_SIGNING=true" >> "$GITHUB_ENV"
 
       # ubuntu-latest liefert ANDROID_HOME bereits (Runner-Image).
       # Kein android-actions/setup-android — das scheiterte im ersten Run.
@@ -154,6 +187,46 @@ jobs:
           ./gradlew :wear:assembleRelease 2>&1 | tee -a ../apk-build.log
         env:
           GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+
+      # App Bundles für die Play Console (Telefon und Uhr, gleicher Schlüssel).
+      - name: Build app bundles
+        if: env.SIGNED == 'true'
+        run: |
+          set -o pipefail
+          flutter build appbundle --release 2>&1 | tee -a apk-build.log
+          (cd android && ./gradlew :wear:bundleRelease 2>&1 | tee -a ../apk-build.log)
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+
+      - name: Verify upload signature
+        if: env.SIGNED == 'true'
+        run: |
+          for file in build/app/outputs/bundle/release/app-release.aab \
+                      build/wear/outputs/bundle/release/wear-release.aab; do
+            cert=$(keytool -printcert -jarfile "$file")
+            if [ -z "$cert" ] || printf '%s' "$cert" | grep -q 'CN=Android Debug'; then
+              echo "::error::$file is not signed with the upload key."
+              exit 1
+            fi
+            printf '%s\n' "$cert" | grep -E 'Owner:|SHA256:' || true
+          done
+          cp build/app/outputs/bundle/release/app-release.aab mai-fitness.aab
+          cp build/wear/outputs/bundle/release/wear-release.aab mai-fitness-wear.aab
+
+      - name: Remove signing files
+        if: always()
+        run: rm -f android/key.properties "$RUNNER_TEMP/upload-keystore.jks"
+
+      - name: Upload app bundles
+        if: success() && env.SIGNED == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: mai-fitness-aab
+          path: |
+            mai-fitness.aab
+            mai-fitness-wear.aab
+          if-no-files-found: error
+          retention-days: 30
 
       - name: Upload APK build log (failure)
         if: failure()
