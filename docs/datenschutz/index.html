@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz Fitness</title>
+<meta name="description" content="Datenschutzerklärung / Privacy Policy – Fitness">
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1b18;--muted:#5f5a52;--line:#e4dfd6;--accent:#2f6b4f;--card:#ffffff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151514;--fg:#ecebe7;--muted:#a8a49c;--line:#2e2d2a;--accent:#7fc4a1;--card:#1d1d1b}}
+:root[data-theme="dark"]{--bg:#151514;--fg:#ecebe7;--muted:#a8a49c;--line:#2e2d2a;--accent:#7fc4a1;--card:#1d1d1b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2rem 16px 4rem}
+nav{display:flex;gap:.5rem;margin-bottom:1.5rem}
+nav a{padding:.35rem .8rem;border:1px solid var(--line);border-radius:999px;color:var(--fg);text-decoration:none;font-size:.9rem}
+nav a:hover{border-color:var(--accent)}
+h1{font-size:1.7rem;line-height:1.25;margin:.2rem 0 .3rem}
+h1+p{color:var(--muted);font-size:.9rem;margin-top:0}
+h2{font-size:1.15rem;margin:2rem 0 .4rem;padding-top:.8rem;border-top:1px solid var(--line)}
+a{color:var(--accent);overflow-wrap:anywhere}
+code{font-size:.9em;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 .25em}
+ul{padding-left:1.2rem}li{margin:.35rem 0}
+section+section{margin-top:4rem;border-top:3px double var(--line);padding-top:1rem}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../">← Start</a><a href="#de" hreflang="de">Deutsch</a><a href="#en" hreflang="en">English</a></nav>
+<section id="de" lang="de">
+<h1>Datenschutzerklärung für die App „Fitness“</h1>
+<p>Stand: 12. Oktober 2026 · Android-Paket <code>space.mai.mai_fitness</code></p>
+<h2>Kurzfassung</h2>
+<p>„Fitness“ ist ein lokaler Trainingsbegleiter mit Übungsbibliothek, Trainingsplänen, Trainingsprotokoll, Fortschritt und Erfolgen. Du brauchst kein Konto. Die App hat keine Internet-Berechtigung: Deine Einträge bleiben auf deinem Gerät, wir als Anbieter erhalten keine deiner Daten, und es gibt weder Werbung noch Analyse- oder Tracking-Dienste.</p>
+<h2>1. Verantwortlicher</h2>
+<p>Joël Maximilian Mai (Entwicklerkonto „maispace“ bei Google Play)<br>
+Quettinghofstr. 125, 50769 Köln, Deutschland<br>
+E-Mail: joel@maispace.de</p>
+<h2>2. Grundsatz: Deine Daten bleiben auf deinem Gerät</h2>
+<p>Alles, was du in die App eingibst, wird ausschließlich lokal auf deinem Gerät gespeichert und verarbeitet. Es gibt kein Benutzerkonto und keinen Server, an den die App deine Inhalte schickt. Wir haben keinen Zugriff auf deine Daten und können sie weder einsehen noch wiederherstellen.</p>
+<p>Die veröffentlichte App enthält keine Internet-Berechtigung. Sie kann daher von sich aus keine Daten ins Internet senden.</p>
+<h2>3. Welche Daten die App auf deinem Gerät verarbeitet</h2>
+<ul><li>Trainingspläne, eigene Übungen und Notizen.</li>
+<li>Trainingsprotokoll: Datum, Übungen, Sätze, Wiederholungen, Gewichte, Zeiten; daraus berechnete Bestwerte, Prognosen und Erfolge.</li>
+<li>Einstellungen (z. B. Wochenziel, Erinnerungszeit).</li></ul>
+<p>Trainingsdaten können Rückschlüsse auf deine Gesundheit zulassen. Sie werden nur auf deinem Gerät verarbeitet und nicht an uns oder Dritte übermittelt.</p>
+<h2>4. Berechtigungen</h2>
+<p>Android fragt dich bei den meisten Berechtigungen um Erlaubnis; du kannst sie jederzeit in den Systemeinstellungen entziehen. Die App nutzt:</p>
+<ul><li><strong>Benachrichtigungen, Start nach Neustart, Vibration</strong>: für die lokale Trainingserinnerung. Sie wird auf dem Gerät geplant, nicht über einen Server.</li></ul>
+<p>Die App hat keine Kamera-, Mikrofon-, Standort-, Kontakte- oder Körpersensor-Berechtigung und nutzt Health Connect nicht.</p>
+<h2>5. Wann Daten das Gerät verlassen können</h2>
+<p>Daten verlassen dein Gerät nur in den folgenden Fällen, und zwar fast immer durch eine bewusste Aktion von dir:</p>
+<ul><li><strong>Verschlüsselte Sicherung (<code>.maifit</code>)</strong>: Du erstellst sie selbst, sie ist mit deinem Passwort verschlüsselt (AES-256-GCM, PBKDF2).</li>
+<li><strong>CSV-Export</strong>: Den Trainingsverlauf als CSV erzeugt die App nur auf deinen Wunsch und übergibt ihn an die App, die du auswählst. Diese Datei ist nicht verschlüsselt.</li>
+<li><strong>Startbildschirm-Widget</strong>: Das Widget „Nächstes Training“ zeigt Plan, Tag und Übungen. Dieser Auszug liegt im App-Speicher, damit Android ihn anzeigen kann.</li>
+<li><strong>Uhr (Wear OS)</strong>: Nur wenn auf einer gekoppelten Uhr die Fitness-Uhr-App installiert ist, geht ein knapper Stand (Planname, Tag, Woche, Serie; keine Übungen, Gewichte oder Verlauf) über die Datenschicht der Google Play-Dienste an die Uhr. Die Uhr-App hat keine Internet-Berechtigung.</li></ul>
+<h2>6. Dienste Dritter</h2>
+<ul><li><strong>Google Play-Dienste (Wearable)</strong>: Übertragung des Uhr-Stands, siehe oben.</li>
+<li><strong>Google Play Store</strong>: Wenn du die App über Google Play lädst oder aktualisierst, verarbeitet Google dabei Daten (z. B. dein Google-Konto, Geräteinformationen) in eigener Verantwortung. Es gilt die Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>. Absturzberichte, die du über Android an Google sendest, sehen wir nur in anonymisierter, zusammengefasster Form in der Play Console.</li></ul>
+<h2>7. Speicherung, Sicherheit und Löschung</h2>
+<p>Die Datenbank ist verschlüsselt (SQLite3 Multiple Ciphers); der Schlüssel ist mit einem Schlüssel aus dem Android Keystore geschützt und verlässt das Gerät nie. Die App ist von Android- bzw. Google-Backups und vom Geräteumzug ausgenommen.</p>
+<p>Deine Daten bleiben gespeichert, bis du sie in der App löschst, die App-Daten in den Android-Einstellungen löschst oder die App deinstallierst. Danach sind sie unwiederbringlich weg, sofern du keine Sicherung erstellt hast. Sicherungen und Exporte, die du außerhalb der App abgelegt hast, löschst du selbst.</p>
+<h2>8. Rechtsgrundlagen</h2>
+<p>Wir selbst verarbeiten keine personenbezogenen Daten aus der App. Soweit über die oben genannten Dienste Dritter technische Daten anfallen, geschieht dies, damit du die jeweilige Funktion nutzen kannst (Art. 6 Abs. 1 lit. b DSGVO) bzw. auf Grundlage des berechtigten Interesses an einer funktionierenden, sicheren App (Art. 6 Abs. 1 lit. f DSGVO). Der Zugriff auf Informationen auf deinem Gerät erfolgt nur, soweit er für die von dir gewünschte Funktion unbedingt erforderlich ist (§ 25 Abs. 2 Nr. 2 TDDDG).</p>
+<h2>9. Deine Rechte</h2>
+<p>Du hast nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO). Da deine Daten nur auf deinem Gerät liegen, kannst du die meisten dieser Rechte direkt selbst ausüben: Du siehst alle Daten in der App und kannst sie ändern und löschen sowie über die Sicherung bzw. den Export mitnehmen. Für Fragen erreichst du uns unter der oben genannten E-Mail-Adresse.</p>
+<p>Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, insbesondere in dem Mitgliedstaat deines Aufenthaltsorts.</p>
+<h2>10. Kinder</h2>
+<p>Die App richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine Daten von Kindern.</p>
+<h2>11. Änderungen</h2>
+<p>Wenn sich die App so ändert, dass diese Erklärung nicht mehr zutrifft, passen wir sie an. Das Datum oben zeigt den aktuellen Stand.</p>
+<h2>12. Kontakt</h2>
+<p>Fragen zum Datenschutz: joel@maispace.de</p>
+</section>
+<section id="en" lang="en">
+<h1>Privacy Policy for the app “Fitness”</h1>
+<p>Last updated: 12 October 2026 · Android package <code>space.mai.mai_fitness</code></p>
+<h2>Summary</h2>
+<p>“Fitness” is a local training companion with exercise library, training plans, workout log, progress and achievements. No account is needed. The app has no internet permission: your entries stay on your device, we as the provider receive none of your data, and there is no advertising, analytics or tracking.</p>
+<h2>1. Controller</h2>
+<p>Joël Maximilian Mai (developer account “maispace” on Google Play)<br>
+Quettinghofstr. 125, 50769 Köln, Germany<br>
+E-mail: joel@maispace.de</p>
+<h2>2. Principle: your data stays on your device</h2>
+<p>Everything you enter in the app is stored and processed only locally on your device. There is no user account and no server to which the app sends your content. We have no access to your data and can neither view nor restore it.</p>
+<p>The published app contains no internet permission. It therefore cannot send any data to the internet on its own.</p>
+<h2>3. Data the app processes on your device</h2>
+<ul><li>Training plans, custom exercises and notes.</li>
+<li>Workout log: date, exercises, sets, repetitions, weights, times; personal records, forecasts and achievements calculated from them.</li>
+<li>Settings (e.g. weekly goal, reminder time).</li></ul>
+<p>Training data may allow conclusions about your health. It is processed only on your device and is not transmitted to us or any third party.</p>
+<h2>4. Permissions</h2>
+<p>Android asks for your consent for most permissions; you can revoke them at any time in the system settings. The app uses:</p>
+<ul><li><strong>Notifications, start after reboot, vibration</strong>: for the local training reminder. It is scheduled on the device, not via a server.</li></ul>
+<p>The app has no camera, microphone, location, contacts or body-sensor permission and does not use Health Connect.</p>
+<h2>5. When data can leave the device</h2>
+<p>Data leaves your device only in the following cases, almost always through a deliberate action on your part:</p>
+<ul><li><strong>Encrypted backup (<code>.maifit</code>)</strong>: you create it yourself; it is encrypted with your password (AES-256-GCM, PBKDF2).</li>
+<li><strong>CSV export</strong>: the workout history as CSV is only created when you ask for it and is handed to the app you choose. This file is not encrypted.</li>
+<li><strong>Home screen widget</strong>: the “Next workout” widget shows plan, day and exercises. This excerpt is stored in the app’s storage so that Android can display it.</li>
+<li><strong>Watch (Wear OS)</strong>: only if the Fitness watch app is installed on a paired watch, a brief status (plan name, day, week, streak; no exercises, weights or history) is sent to the watch via the data layer of Google Play services. The watch app has no internet permission.</li></ul>
+<h2>6. Third-party services</h2>
+<ul><li><strong>Google Play services (Wearable)</strong>: transfer of the watch status, see above.</li>
+<li><strong>Google Play Store</strong>: when you download or update the app via Google Play, Google processes data (e.g. your Google account, device information) under its own responsibility. Google’s privacy policy applies: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>. Crash reports that you send to Google via Android are only visible to us in anonymised, aggregated form in the Play Console.</li></ul>
+<h2>7. Storage, security and deletion</h2>
+<p>The database is encrypted (SQLite3 Multiple Ciphers); its key is protected by a key from the Android Keystore and never leaves the device. The app is excluded from Android/Google backups and device-to-device transfer.</p>
+<p>Your data remains stored until you delete it in the app, clear the app data in Android’s settings or uninstall the app. After that it is gone for good unless you created a backup. You delete backups and exports stored outside the app yourself.</p>
+<h2>8. Legal bases</h2>
+<p>We ourselves do not process any personal data from the app. Where technical data arises through the third-party services named above, this happens so that you can use the respective feature (Art. 6(1)(b) GDPR) or on the basis of our legitimate interest in a functioning, secure app (Art. 6(1)(f) GDPR). Information on your device is accessed only where strictly necessary for the feature you requested (Section 25(2) no. 2 TDDDG).</p>
+<h2>9. Your rights</h2>
+<p>Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection (Art. 15–21 GDPR). Because your data is only on your device, you can exercise most of these rights directly yourself: you see all data in the app and can change and delete it and take it with you via backup or export. For questions, contact us at the e-mail address above.</p>
+<p>You also have the right to lodge a complaint with a data protection supervisory authority, in particular in the member state of your residence.</p>
+<h2>10. Children</h2>
+<p>The app is not directed at children under 16. We do not knowingly collect data from children.</p>
+<h2>11. Changes</h2>
+<p>If the app changes in a way that makes this policy inaccurate, we will update it. The date at the top shows the current version.</p>
+<h2>12. Contact</h2>
+<p>Privacy questions: joel@maispace.de</p>
+</section>
+</main>
+</body>
+</html>

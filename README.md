@@ -4,7 +4,7 @@ Trainingsbegleiter für Studio und Zuhause — **lokal, ohne Konto**, auf
 Deutsch und Englisch. Gleiche Prinzipien und gleicher Stack wie die anderen
 Mai-Apps (Haushalt, Budget, Ärzte).
 
-> Erste Version (v0.1). Konzept und Roadmap: [`docs/KONZEPT.md`](docs/KONZEPT.md)
+> Erste Version (v0.1). Konzept und Roadmap: [`project-docs/KONZEPT.md`](project-docs/KONZEPT.md)
 
 ## Features
 
