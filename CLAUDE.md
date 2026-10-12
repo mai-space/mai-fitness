@@ -4,7 +4,7 @@ Lokaler, verschlüsselter Trainingsbegleiter (Flutter, Android). Gleiche
 Prinzipien und gleicher Stack wie die anderen Mai-Apps. Angezeigter Name
 „Fitness“ (ohne „Mai“), Paket `space.mai.mai_fitness`, CI-Artefakt
 `mai-fitness.apk`. UI Deutsch/Englisch nach Systemsprache.
-Konzept: `docs/KONZEPT.md`.
+Konzept: `project-docs/KONZEPT.md`.
 
 ## Datenschutz (Pflicht)
 

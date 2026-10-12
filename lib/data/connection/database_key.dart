@@ -38,7 +38,7 @@ class DatabaseKeyUnavailable implements Exception {
 
 /// Android: Schlüssel im Keystore verpackt, nie im Backup (siehe
 /// `DatabaseKeyChannel.kt`). Andere Plattformen: unverschlüsselt (iOS folgt,
-/// siehe docs/KONZEPT.md).
+/// siehe project-docs/KONZEPT.md).
 class PlatformDatabaseKeyStore implements DatabaseKeyStore {
   const PlatformDatabaseKeyStore({@visibleForTesting this.operatingSystem});
 
