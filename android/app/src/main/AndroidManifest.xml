@@ -54,6 +54,12 @@
                     android:path="/mai-fitness/request" />
             </intent-filter>
         </service>
+        <!-- Prognose-Übersicht im Mai Launcher: Widget-Stand nur für Mai-Apps
+             mit gleicher Signatur (Prüfung in SummaryProvider). Authority nie ändern. -->
+        <provider
+            android:name=".widgets.SummaryProvider"
+            android:authorities="space.mai.mai_fitness.summary"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

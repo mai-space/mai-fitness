@@ -18,6 +18,9 @@ object WidgetStore {
         prefs(context).edit().putString(KEY_SNAPSHOT, json).apply()
     }
 
+    /** Stand als Text (für den Mai Launcher) oder `null`. */
+    fun snapshotJson(context: Context): String? = prefs(context).getString(KEY_SNAPSHOT, null)
+
     /** Letzter Stand der App oder `null` (App noch nie geöffnet/eingerichtet). */
     fun snapshot(context: Context): JSONObject? {
         val raw = prefs(context).getString(KEY_SNAPSHOT, null) ?: return null
