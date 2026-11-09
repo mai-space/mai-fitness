@@ -36,6 +36,10 @@ Konzept: `project-docs/KONZEPT.md`.
 - **Widget-Stand (`lib/home_widgets/widget_snapshot.dart`)** — JSON nur
   erweitern (`v` bleibt 1); die native Seite ignoriert Unbekanntes.
 - **Einstellungen** — gespeicherte Werte tolerant lesen.
+- **Mai Launcher (`SummaryProvider`, Authority `space.mai.mai_fitness.summary`, Spalte
+  `json`)** — liefert den Widget-Stand nur an `space.mai.*`-Apps mit gleicher
+  Signatur. Authority, Spalte und Stand-Format nie ändern (nur erweitern);
+  der Launcher kann eine ältere oder neuere Version sein.
 
 ## Arbeitsweise
 
